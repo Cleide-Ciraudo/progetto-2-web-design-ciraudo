@@ -1,0 +1,111 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(248, 227, 200, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.info , a{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contenitore{
+    width: 100%;
+}
+.linea-laterale{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 20px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.titolo{
+    border-bottom: 10px solid black;
+    margin-left: 50px; 
+    width: 450px;
+    position: relative;
+}
+.titolo h2{
+    font-size: 35px;
+    margin-top: 20px; 
+    margin-bottom: 0px;
+    left: 0;
+    bottom: 0;
+}
+.img-text1{
+    margin-left: 50px; 
+    width: 850px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.img-text1 .immagine{
+    
+    height: 400px;
+    width: 450px;
+    background-image: url(immagini/adrian-johnson-1.png);
+    background-size: contain;
+}
+.img-text2{
+    margin-left: -15px; 
+    width: 950px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 20px;
+}
+.img-text2 .testo{
+    width: 1500px;
+    height: 500px;   
+}
+.img-text2 .testo p{
+    margin-left: -50px;
+}
+.img-text2 .testo h3{
+    width: 350px;
+}
+.img-text3{
+    margin-left: 50px; 
+    width: 650px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+.img-text3 .immagine{
+    
+    height: 400px;
+    width: 780px;
+    background-image: url(immagini/adrian-jhonson-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,87 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(248, 227, 200, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.info , a{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.elenco-artisti{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    width: 60%;
+    justify-content: center;
+    margin-left: 250px;
+}
+.elenco-artisti a{
+    background-color: black;
+    margin-top: 40px;
+    justify-content: center;
+    width: 100%;
+    display: flex;   
+}
+.contenitore{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+.img-home{
+    width: 600px;
+}
+.contenitore-testo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.titolo {
+    width: 30px;
+    font-size: 20px;
+}
+h1{
+    margin: 0px;
+}
+.sottotitolo h2{
+    margin: 0px;
+}
+.testo{
+    margin-left: 80px;
+    width: 400px;
+}
+.titolo-elenco-artisti{
+    font-size: 30px;
+    width: 800px;
+    border-bottom: 3px solid black;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.titolo-elenco-artisti p{
+    margin: 0px;
+}

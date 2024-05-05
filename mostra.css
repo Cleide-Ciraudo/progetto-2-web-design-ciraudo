@@ -1,0 +1,49 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(248, 227, 200, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.info , a{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header{
+    margin-left: 50px;
+}
+.cose-importanti{
+    font-size: 20px;
+}
+.blocco1{
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.blocco2{
+    width: 800px;
+    border-top: 3px solid black;
+    margin-bottom: 150px;
+}

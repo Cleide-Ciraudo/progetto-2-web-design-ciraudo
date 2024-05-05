@@ -1,0 +1,103 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(248, 227, 200, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.info , a{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.linea-laterale{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 20px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.contenitore{
+    width: 100%;
+}
+.testo{
+    margin-right: 40px;
+    margin-left: 0px;
+}
+.img-text{
+    border-bottom: 10px solid black;
+    margin-left: 50px; 
+    width: 650px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+h3{
+    font-size: 30px;
+    margin: 0%; 
+    align-self: flex-start;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.immagine{
+    padding-top: 100px;
+}
+.immagine3{
+   height: 300px;
+   width: 400px;
+   margin-top: 180px; 
+   background-image: url(immagini/paul-blow-1.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.immagine8{
+   height: 300px;
+   width: 400px;
+   margin-top: 100px; 
+   background-image: url(immagini/emily-robertson-1.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.testo a p{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0%; 
+    align-self: flex-start;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.titolo-artisti{
+    font-size: 25px;
+    margin-bottom: -40px;
+    margin-left: 25px;
+}

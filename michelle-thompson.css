@@ -1,0 +1,198 @@
+/* body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(248, 227, 200, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.info , a{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.linea-laterale{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 20px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.titolo{
+    border-bottom: 10px solid black;
+    margin-left: 50px; 
+    width: 650px;
+    position: relative;
+}
+.titolo h2{
+    font-size: 35px;
+    margin-top: 20px; 
+    margin-bottom: 0px;
+    left: 0;
+    bottom: 0;
+} */
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgba(248, 227, 200, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.info , a{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contenitore{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.linea-laterale{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 20px;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cose-importanti{
+    font-size: 23px;
+}
+.img-text1{
+    margin-left: -100px; 
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 18px;
+}
+.img-text1 .testo{
+    width: 350px;
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
+}
+.img-text2{
+    margin-left: -20px; 
+    width: 1070px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.img-text2 .testo{
+    width: 350px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.img-text2 .immagine{
+    width: 500px;
+    height: 500px;
+    margin-left:80px;
+    background-image: url(immagini/michelle-thompson-2.jpg);
+    background-size: contain;
+}
+.img-text2 .immagine-2{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    background-image: url(immagini/michelle-thompson-1.png);
+    background-size: contain;
+}
+
+.img-text3{
+    margin-left: 30px; 
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+    margin-bottom: 300px;
+
+}
+.img-text3 .immagine{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    background-image: url(immagini/michelle-thompson-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.img-text3 .immagine-2{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    background-image: url(immagini/michelle-thompson-4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.img-text3 .testo{
+    width: 150px;
+    margin-right: 350px;
+}
+
+.titolo{
+    border-bottom: 10px solid black;
+    margin-left: 50px; 
+    width: 400px;
+    position: relative;
+}
+
+.titolo h2{
+    font-size: 35px;
+    margin-top: 20px; 
+    margin-bottom: 0px;
+    left: 0;
+    bottom: 0;
+}
+
