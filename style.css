@@ -33,16 +33,17 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 300px;
-    width: 60%;
+    width: 100%;
     justify-content: center;
-    margin-left: 250px;
 }
 .elenco-artisti a{
     background-color: black;
     margin-top: 40px;
-    justify-content: center;
-    width: 100%;
     display: flex;   
+    justify-content: center;
+    align-self: center;
+    width: 700px;
+    
 }
 .contenitore{
     display: flex;
@@ -84,4 +85,5 @@ h1{
 }
 .titolo-elenco-artisti p{
     margin: 0px;
+    
 }

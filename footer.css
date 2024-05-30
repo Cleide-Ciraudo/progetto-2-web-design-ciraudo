@@ -32,61 +32,35 @@ body{
     padding-right: 30px;
 }
 .contenitore{
-   margin-left: 40px;
-   width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .linea-laterale{
-    margin-top: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
     width: 20px;
     height: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
-.titolo{
-    border-bottom: 10px solid black;
-    width: 450px;
-    
-}
-.titolo h2{
-    font-size: 35px;
-    left: 0;
-    bottom: 0;
+.cose-importanti{
+    font-size: 23px;
 }
 .img-text1{
-    width: 850px;
+    margin-left: -100px; 
+    width: 1000px;
     height: 400px;
     display: flex;
     justify-content: flex-end;
-    
+    position: relative;
+    font-size: 18px;
 }
-.img-text1 .immagine{
-    height: 400px;
-    width: 450px;
-    background-image: url(immagini/adrian-johnson-1.png);
-    background-size: contain;
-}
-.img-text2{
-    width: 950px;
-    height: 400px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
-
-}
-.img-text2 .testo{
-    width: 1500px;
-    height: 500px;   
-}
-.img-text2 .testo h3{
+.img-text1 .testo{
     width: 350px;
-}
-.img-text3{
-    width: 1150px;
-    height: 600px;
-    display: flex;
-    justify-content: flex-end;
-}
-.img-text3 .testo{
-    width: 300px;
+    font-size: 20px;
+    position: absolute;
+    left: 150px;
 }
